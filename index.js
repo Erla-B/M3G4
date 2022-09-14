@@ -68,16 +68,16 @@ if (people[0].knowsHowToProgram && people[3].knowsHowToProgram) {
 // Checking 2nd person's nationality
 switch (people[0].country) {
     case 'Iceland':
-        alert('Hæ');
+        console.log('Hæ');
         break;
     case 'Spain':
-        alert('Hola');
+        console.log('Hola');
         break;
    case 'Korea':
-        alert('여보세요');
+    console.log('여보세요');
         break;
     default:
-        alert('Hello');
+        console.log('Hello');
 };
 // Output is 'Hello'
 
